@@ -10,6 +10,6 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
-<P>  The message if you used home2 as a view: ${serverMessage}</P>
+<P>  The message you get if you used /i in the url: ${serverMessage}${msg}</P>
 </body>
 </html>

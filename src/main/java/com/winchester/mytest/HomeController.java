@@ -41,6 +41,8 @@ public class HomeController {
 		
 		String serverMessage = "This got sent in the model";
 		model.addAttribute("serverMessage", serverMessage );
+		String msg = " and Alternative message";
+		model.addAttribute("msg", msg);
 		return "home";
 	}
 }
